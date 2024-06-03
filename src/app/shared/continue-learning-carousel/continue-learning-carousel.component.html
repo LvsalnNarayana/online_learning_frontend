@@ -1,0 +1,31 @@
+<div class="relative w-full">
+  <ngx-slick-carousel
+    class="carousel"
+    #slickModal="slick-carousel"
+    [config]="slideConfig"
+    (init)="slickInit($event)"
+    (breakpoint)="breakpoint($event)"
+    (afterChange)="afterChange($event)"
+    (beforeChange)="beforeChange($event)"
+  >
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+    <app-continue-course ngxSlickItem [test]="'hello'"></app-continue-course>
+  </ngx-slick-carousel>
+  <div
+    class="absolute flex justify-center items-center w-14 h-full top-1/2 right-0 transform -translate-y-1/2 p-1"
+  >
+    <button
+      (click)="slickModal.slickNext()"
+      class="flex items-center justify-center w-10 h-10 bg-neutral-700 rounded-full"
+    >
+      <mat-icon class="!text-[24px] !w-[24px] !h-[24px] text-white"
+        >arrow_forward_ios</mat-icon
+      >
+    </button>
+  </div>
+</div>

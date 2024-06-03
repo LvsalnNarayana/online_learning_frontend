@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
   profileMenuOpen = false;
   instructorPathCheck = false;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.router.events.subscribe(() => {

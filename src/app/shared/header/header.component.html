@@ -1,60 +1,64 @@
-<mat-toolbar color="secondary" class="!h-[50px] !px-6">
-  <button
-    mat-icon-button
-    class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-3"
-  >
-    <mat-icon class="!text-[22px] !w-[22px] !h-[22px]">menu</mat-icon>
-  </button>
-  <a [routerLink]="['/']">
-    <span>Ndotdev</span>
-  </a>
-
-  <span class="example-spacer"></span>
-  <a
-    [routerLink]="instructorPathCheck ? ['/'] : ['/instructor', 'dashboard']"
-    class="text-sm mr-5"
-  >
-    {{ instructorPathCheck ? "Student" : "Instructor" }}
-  </a>
-  <a [routerLink]="['/cart']">
+<mat-toolbar color="secondary" class="!h-[50px] !p-0">
+  <div class="container mx-auto flex items-center">
     <button
       mat-icon-button
+      class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-3"
+    >
+      <mat-icon class="!text-[22px] !w-[22px] !h-[22px]">menu</mat-icon>
+    </button>
+    <a [routerLink]="['/']">
+      <span>Ndotdev</span>
+    </a>
+
+    <span class="example-spacer"></span>
+    <a
+      [routerLink]="instructorPathCheck ? ['/'] : ['/instructor', 'dashboard']"
+      class="text-sm mr-5"
+    >
+      {{ instructorPathCheck ? "Student" : "Instructor" }}
+    </a>
+    <a [routerLink]="['/cart']">
+      <button
+        mat-icon-button
+        class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-5"
+      >
+        <mat-icon class="!text-[22px] !w-[22px] !h-[22px]"
+          >shopping_cart</mat-icon
+        >
+      </button>
+    </a>
+    <button
+      mat-icon-button
+      aria-label="notifications"
+      (click)="notificationsOpen = !notificationsOpen"
+      type="button"
+      cdkOverlayOrigin
+      #notificationTrigger="cdkOverlayOrigin"
+      matBadge="2"
+      matBadgeColor="primary"
+      matBadgePosition="above"
+      matBadgeSize="small"
       class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-5"
     >
       <mat-icon class="!text-[22px] !w-[22px] !h-[22px]"
-        >shopping_cart</mat-icon
+        >notifications</mat-icon
       >
     </button>
-  </a>
-  <button
-    mat-icon-button
-    aria-label="notifications"
-    (click)="notificationsOpen = !notificationsOpen"
-    type="button"
-    cdkOverlayOrigin
-    #notificationTrigger="cdkOverlayOrigin"
-    matBadge="2"
-    matBadgeColor="primary"
-    matBadgePosition="above"
-    matBadgeSize="small"
-    class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-5"
-  >
-    <mat-icon class="!text-[22px] !w-[22px] !h-[22px]">notifications</mat-icon>
-  </button>
 
-  <button
-    style="background-color: deepskyblue; color: white"
-    disableRipple
-    mat-icon-button
-    aria-label="notifications"
-    (click)="profileMenuOpen = !profileMenuOpen"
-    type="button"
-    cdkOverlayOrigin
-    #profileMenuTrigger="cdkOverlayOrigin"
-    class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center"
-  >
-    <span class="!text-sm">N</span>
-  </button>
+    <button
+      style="background-color: deepskyblue; color: white"
+      disableRipple
+      mat-icon-button
+      aria-label="notifications"
+      (click)="profileMenuOpen = !profileMenuOpen"
+      type="button"
+      cdkOverlayOrigin
+      #profileMenuTrigger="cdkOverlayOrigin"
+      class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center"
+    >
+      <span class="!text-[20px]">N</span>
+    </button>
+  </div>
 </mat-toolbar>
 
 <ng-template
