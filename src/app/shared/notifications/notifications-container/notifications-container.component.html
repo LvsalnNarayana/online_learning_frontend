@@ -1,0 +1,23 @@
+<div class="flex flex-col w-[450px] py-2 px-4 bg-white rounded-lg shadow-md">
+  <div class="flex justify-between items-center w-full mb-2">
+    <h3 class="text-xl">Notifications</h3>
+    <button
+      mat-icon-button
+      matTooltip="Clear All Notifications"
+      color="warn"
+      class="!p-0 !w-[35px] !h-[35px] flex justify-center items-center !overflow-hidden"
+    >
+      <mat-icon class="!text-[18px] !w-[18px] !h-[18px]">delete</mat-icon>
+    </button>
+  </div>
+  <mat-divider class="!mb-2" />
+  <cdk-virtual-scroll-viewport
+    itemSize="2"
+    style="height: 300px; width: 100%"
+    class="notification_viewport"
+  >
+    <app-notification
+      *cdkVirtualFor="let item of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    />
+  </cdk-virtual-scroll-viewport>
+</div>

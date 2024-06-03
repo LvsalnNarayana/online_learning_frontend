@@ -1,0 +1,48 @@
+// // Import Angular Material theming functions and palettes
+// @use "@angular/material" as mat;
+
+// // Include the core styles for Angular Material
+// @include mat.core();
+
+// // Define the light theme using default Angular Material palettes
+// $light-primary: mat.define-palette(mat.$indigo-palette);
+// $light-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+// $light-warn: mat.define-palette(mat.$red-palette);
+
+// $light-theme: mat.define-light-theme(
+//   (
+//     color: (
+//       primary: $light-primary,
+//       accent: $light-accent,
+//       warn: $light-warn,
+//     ),
+//     typography: mat.define-typography-config(),
+//   )
+// );
+
+// // Define the dark theme using default Angular Material palettes
+// $dark-primary: mat.define-palette(mat.$blue-grey-palette);
+// $dark-accent: mat.define-palette(mat.$amber-palette, A200, A100, A400);
+// $dark-warn: mat.define-palette(mat.$deep-orange-palette);
+
+// $dark-theme: mat.define-dark-theme(
+//   (
+//     color: (
+//       primary: $dark-primary,
+//       accent: $dark-accent,
+//       warn: $dark-warn,
+//     ),
+//     typography: mat.define-typography-config(),
+//   )
+// );
+
+// // Apply the light theme to the application
+// @include mat.all-component-themes($light-theme);
+
+// // Optionally include typography utility classes
+// // @include mat.typography-hierarchy($light-theme);
+
+// // Apply the dark theme to elements with the .dark-theme class
+// .dark-theme {
+//   @include mat.all-component-themes($dark-theme);
+// }
