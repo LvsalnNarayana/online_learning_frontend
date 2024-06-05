@@ -99,3 +99,21 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #555;
     /* Thumb color on hover */
 }
+
+.mat-expansion-panel {
+    box-shadow: none !important;
+}
+
+.mat-expansion-panel-header {
+    height: auto !important;
+}
+
+.mat-expansion-panel-header.mat-expanded,
+.mat-expansion-panel-header.mat-expanded:focus {
+    height: auto !important;
+    background-color: #f1f1f1 !important;
+}
+
+.mat-expansion-indicator::after {
+    color: black !important;
+}

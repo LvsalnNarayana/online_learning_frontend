@@ -1,4 +1,4 @@
-<div class="bg-indigo-100 py-14 w-full">
+<div class="bg-neutral-800 py-14 w-full text-white">
   <div class="container max-w-screen-xl mx-auto">
     <div class="w-3/5 flex flex-col justify-start items-start gap-5">
       <h1 class="text-3xl font-bold">
@@ -28,28 +28,28 @@
             >star</mat-icon
           >
         </div>
-        <p class="text-[15px] text-blue-600 hover:underline cursor-pointer">
+        <p class="text-[15px] text-indigo-300 hover:underline cursor-pointer">
           (123435 ratings)
         </p>
-        <p class="text-[15px] text-neutral-800 font-medium">19, 234 Students</p>
+        <p class="text-[15px] font-medium">19, 234 Students</p>
       </div>
       <div class="flex justify-start items-start">
         <p class="text-[15px] font-medium">Created by</p>
         &nbsp;&nbsp;
         <p
-          class="text-[15px] underline text-blue-600 font-medium cursor-pointer"
+          class="text-[15px] underline text-indigo-300 font-medium cursor-pointer"
         >
           John Doe
         </p>
         ,&nbsp;
         <p
-          class="text-[15px] underline text-blue-600 font-medium cursor-pointer"
+          class="text-[15px] underline text-indigo-300 font-medium cursor-pointer"
         >
           Mary Jane
         </p>
         ,&nbsp;
         <p
-          class="text-[15px] underline text-blue-600 font-medium cursor-pointer"
+          class="text-[15px] underline text-indigo-300 font-medium cursor-pointer"
         >
           Peter Parker
         </p>
@@ -70,5 +70,286 @@
         </p>
       </div>
     </div>
+  </div>
+</div>
+<div class="container max-w-screen-xl max-auto py-14">
+  <div
+    [ngClass]="showMore ? 'h-auto' : 'h-[400px]'"
+    class="border-2 p-6 w-3/5 overflow-hidden relative transition-all duration-100 ease-in-out mb-8"
+  >
+    <h3 class="font-semibold mb-6 text-2xl pl-8">What you'll learn</h3>
+    <ul class="flex flex-wrap justify-start items-stretch list-none">
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        ChatGPT: Create content, synthesize information, and learn faster than
+        ever with effective prompt engineering!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        ChatGPT: Turn your creativity into paid work, generate fresh ideas,
+        reach new audiences, and scale your projects!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Productivity: Achieve your goals faster with ChatGPT, manage your time,
+        prioritize tasks, and create an optimized daily schedule!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Marketing: Generate targeted content with ChatGPT, capitalize on trends,
+        create ads, newsletters, and media campaigns!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Soft Skills: Improve your communication, leadership, problem-solving,
+        and social skills with personalized ChatGPT feedback!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        AI Voice Tools: Easily create AI-generated speech for any use case and
+        even clone your own voice entirely!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        AI Video Tools: Create an AI avatar that transforms scripts into
+        presentations and quickly generate social media content!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        AI Photo Tools: Add motion to images, dynamically enhance image
+        aesthetics, and create custom images in bulk!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        AI Writing Tools: Automate writing tasks, generate effective copy, and
+        integrate with Google Sheets/Excel!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        AI Music Tools: Create unique compositions for any types of video and
+        save time with a streamlined creative process.
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Branding: Develop a visual identity, design logos, and generate content
+        to establish a strong online presence!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        DALL-E 2: Create amazing photos from prompts, fill in or remove elements
+        of images using inpainting and outpainting techniques!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Business: Streamline your workflow, automate repetitive tasks, and gain
+        insights that help you make data-driven decisions for your business!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Multimodal: Combine multiple AI tools to create immersive and engaging
+        content that would have previously taken an entire team to create!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Midjourney: Use prompts, parameters, and modifiers to create amazing
+        images that showcase your personal style and creativity!
+      </li>
+      <li
+        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+      >
+        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+          >check</mat-icon
+        >
+        Coding: Combine the power of ChatGPT with programming fundamentals,
+        algorithms, debugging, and documentation!
+      </li>
+    </ul>
+    <div
+      [ngClass]="
+        showMore
+          ? 'h-auto pt-2 pb-4'
+          : 'absolute bg-gradient-to-t from-white via-white to-transparent bottom-0 left-0 h-[200px]  pb-10'
+      "
+      class="w-full flex justify-center items-end"
+    >
+      <span
+        (click)="toggleShowMore()"
+        class="text-[15px] font-semibold text-indigo-700 hover:underline cursor-pointer"
+        >{{ showMore ? "See less" : "See more" }}</span
+      >
+    </div>
+  </div>
+  <div class="py-4 w-3/5">
+    <h3 class="font-semibold mb-6 text-2xl">This course includes:</h3>
+    <div class="flex justify-start items-start flex-wrap">
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>smart_display</mat-icon>
+        24 hours on-demand video
+      </p>
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>description</mat-icon>
+        18 articles
+      </p>
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>download</mat-icon>
+        15 downloadable resources
+      </p>
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>smartphone</mat-icon>
+        Access on mobile and TV
+      </p>
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>closed_captions</mat-icon>
+        Closed captions
+      </p>
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>volume_up</mat-icon>
+        Audio description in existing audio
+      </p>
+      <p
+        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+      >
+        <mat-icon>emoji_events</mat-icon>
+        Certificate of completion
+      </p>
+    </div>
+  </div>
+  <div class="py-4 w-3/5">
+    <h3 class="font-semibold mb-4 text-2xl">Course content</h3>
+    <p class="text-neutral-500 font-medium">
+      42 sections • 190 lectures • 16h 25m total length
+    </p>
+    <div class="my-1">
+      <mat-accordion>
+        <mat-expansion-panel
+          hideToggle
+          *ngFor="let item of sectionsArray | slice : 0 : sectionsToShow"
+          class="border-2 !rounded-md !mb-2"
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header class="!p-4">
+            <mat-panel-title class="!text-[15px] !font-semibold !w-full">
+              Incredible Ways to use ChatGPT
+            </mat-panel-title>
+            <mat-panel-description
+              class="!flex !justify-end !m-0 !text-neutral-600 !flex-none"
+            >
+              6 Lectures .. 30min
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div class="flex flex-col w-full justify-start items-start">
+            <div class="w-full flex justify-between items-center pt-6">
+              <p
+                class="flex justify-start items-center gap-4 text-[14px] font-medium"
+              >
+                <mat-icon>smart_display</mat-icon>
+                Introduction: Incredible Ways to Use ChatGPT
+              </p>
+              <p
+                class="flex justify-start items-center gap-4 text-[14px] font-medium"
+              >
+                00:10
+              </p>
+            </div>
+            <div class="w-full flex justify-between items-center pt-6">
+              <p
+                class="flex justify-start items-center gap-4 text-[14px] font-medium"
+              >
+                <mat-icon>description</mat-icon>
+                Introduction: Incredible Ways to Use ChatGPT
+              </p>
+              <p
+                class="flex justify-start items-center gap-4 text-[14px] font-medium"
+              >
+                00:10
+              </p>
+            </div>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <button
+        [ngClass]="sectionsToShow === sectionsArray.length ? 'hidden' : ''"
+        (click)="sectionsToShow = sectionsArray.length"
+        class="w-full py-2 border-2 border-black rounded-md font-semibold"
+      >
+        {{ sectionsArray.length - sectionsToShow }} more sections
+      </button>
+    </div>
+  </div>
+  <div class="py-4 w-3/5">
+    <h3 class="font-semibold mb-4 text-2xl">Students also bought</h3>
   </div>
 </div>
