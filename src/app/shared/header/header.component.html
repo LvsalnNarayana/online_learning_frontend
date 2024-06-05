@@ -1,19 +1,19 @@
-<mat-toolbar color="secondary" class="!h-[50px] !p-0">
+<mat-toolbar color="secondary" class="!h-[50px] !p-0 !bg-neutral-900">
   <div class="container mx-auto flex items-center">
     <button
       mat-icon-button
       class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-3"
     >
-      <mat-icon class="!text-[22px] !w-[22px] !h-[22px]">menu</mat-icon>
+      <mat-icon class="!text-[22px] !w-[22px] !h-[22px] text-white">menu</mat-icon>
     </button>
     <a [routerLink]="['/']">
-      <span>Ndotdev</span>
+      <span class="text-white">Ndotdev</span>
     </a>
 
     <span class="example-spacer"></span>
     <a
       [routerLink]="instructorPathCheck ? ['/'] : ['/instructor', 'dashboard']"
-      class="text-sm mr-5"
+      class="text-sm mr-5 font-semibold"
     >
       {{ instructorPathCheck ? "Student" : "Instructor" }}
     </a>
@@ -22,7 +22,7 @@
         mat-icon-button
         class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-5"
       >
-        <mat-icon class="!text-[22px] !w-[22px] !h-[22px]"
+        <mat-icon class="!text-[22px] !w-[22px] !h-[22px] text-white"
           >shopping_cart</mat-icon
         >
       </button>
@@ -40,7 +40,7 @@
       matBadgeSize="small"
       class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center !mr-5"
     >
-      <mat-icon class="!text-[22px] !w-[22px] !h-[22px]"
+      <mat-icon class="!text-[22px] !w-[22px] !h-[22px] text-white"
         >notifications</mat-icon
       >
     </button>
@@ -54,9 +54,9 @@
       type="button"
       cdkOverlayOrigin
       #profileMenuTrigger="cdkOverlayOrigin"
-      class="!p-1 !w-[38px] !h-[38px] !flex !justify-center !items-center"
+      class="!p-1 !w-[32px] !h-[32px] !flex !justify-center !items-center"
     >
-      <span class="!text-[20px]">N</span>
+      <span class="!text-[18px] font-bold">N</span>
     </button>
   </div>
 </mat-toolbar>

@@ -19,9 +19,6 @@ export class CourseCarouselComponent {
     draggable: false,
     dots: false,
     arrows: false,
-    centerMode: true,
-    variableWidth: true,
-    centerPadding:'40px'
   };
   slickInitialized: boolean = false;
   slickInit(_e: any) {

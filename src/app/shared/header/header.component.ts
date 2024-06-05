@@ -14,7 +14,7 @@ import { ProfileMenuComponent } from '../profile-menu/profile-menu.component';
   standalone: true,
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
-  host: { class: 'sticky top-0 left-0' },
+  host: { class: 'fixed top-0 left-0 w-full  !z-[1000]' },
   imports: [
     MatToolbarModule,
     MatButtonModule,

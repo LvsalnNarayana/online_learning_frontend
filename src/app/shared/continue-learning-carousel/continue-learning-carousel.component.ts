@@ -10,7 +10,15 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './continue-learning-carousel.component.css',
 })
 export class ContinueLearningCarouselComponent {
-  slideConfig = { slidesToShow: 3, slidesToScroll: 1 };
+  slideConfig = {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    draggable: false,
+    dots: false,
+    arrows: false,
+    centerMode: false,
+    centerPadding: '40px',
+  };
   slickInit(_e: any) {
     console.log('slick initialized');
   }

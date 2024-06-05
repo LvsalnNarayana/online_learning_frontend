@@ -1,7 +1,5 @@
 <div class="flex justify-start items-center w-full">
-  <div
-    class="flex justify-center items-center flex-1 w-14 h-full top-1/3 -translate-y-1/2 left-0 p-1"
-  >
+  <div class="flex justify-center items-center flex-1 w-14 h-full">
     <button
       (click)="slickModal.slickPrev()"
       class="flex items-center justify-center w-10 h-10 bg-neutral-700 rounded-full"
@@ -12,7 +10,7 @@
     </button>
   </div>
 
-  <div class="w-full flex-auto">
+  <div class="w-full flex-auto overflow-hidden px-2">
     <ngx-slick-carousel
       class="carousel"
       #slickModal="slick-carousel"
@@ -32,9 +30,7 @@
     </ngx-slick-carousel>
   </div>
 
-  <div
-    class="flex justify-center items-center flex-1 w-14 h-full top-1/3 -translate-y-1/2 right-0 p-1"
-  >
+  <div class="flex justify-center items-center">
     <button
       (click)="slickModal.slickNext()"
       class="flex items-center justify-center w-10 h-10 bg-neutral-700 rounded-full"
