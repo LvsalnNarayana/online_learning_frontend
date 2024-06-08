@@ -117,3 +117,13 @@ body::-webkit-scrollbar-thumb:hover {
 .mat-expansion-indicator::after {
     color: black !important;
 }
+
+.mdc-evolution-chip__action {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.mdc-evolution-chip__text-label {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}

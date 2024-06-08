@@ -72,284 +72,431 @@
     </div>
   </div>
 </div>
-<div class="container max-w-screen-xl max-auto py-14">
-  <div
-    [ngClass]="showMore ? 'h-auto' : 'h-[400px]'"
-    class="border-2 p-6 w-3/5 overflow-hidden relative transition-all duration-100 ease-in-out mb-8"
-  >
-    <h3 class="font-semibold mb-6 text-2xl pl-8">What you'll learn</h3>
-    <ul class="flex flex-wrap justify-start items-stretch list-none">
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        ChatGPT: Create content, synthesize information, and learn faster than
-        ever with effective prompt engineering!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        ChatGPT: Turn your creativity into paid work, generate fresh ideas,
-        reach new audiences, and scale your projects!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Productivity: Achieve your goals faster with ChatGPT, manage your time,
-        prioritize tasks, and create an optimized daily schedule!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Marketing: Generate targeted content with ChatGPT, capitalize on trends,
-        create ads, newsletters, and media campaigns!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Soft Skills: Improve your communication, leadership, problem-solving,
-        and social skills with personalized ChatGPT feedback!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        AI Voice Tools: Easily create AI-generated speech for any use case and
-        even clone your own voice entirely!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        AI Video Tools: Create an AI avatar that transforms scripts into
-        presentations and quickly generate social media content!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        AI Photo Tools: Add motion to images, dynamically enhance image
-        aesthetics, and create custom images in bulk!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        AI Writing Tools: Automate writing tasks, generate effective copy, and
-        integrate with Google Sheets/Excel!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        AI Music Tools: Create unique compositions for any types of video and
-        save time with a streamlined creative process.
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Branding: Develop a visual identity, design logos, and generate content
-        to establish a strong online presence!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        DALL-E 2: Create amazing photos from prompts, fill in or remove elements
-        of images using inpainting and outpainting techniques!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Business: Streamline your workflow, automate repetitive tasks, and gain
-        insights that help you make data-driven decisions for your business!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Multimodal: Combine multiple AI tools to create immersive and engaging
-        content that would have previously taken an entire team to create!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Midjourney: Use prompts, parameters, and modifiers to create amazing
-        images that showcase your personal style and creativity!
-      </li>
-      <li
-        class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
-      >
-        <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
-          >check</mat-icon
-        >
-        Coding: Combine the power of ChatGPT with programming fundamentals,
-        algorithms, debugging, and documentation!
-      </li>
-    </ul>
+<div class="container max-w-screen-xl max-auto flex justify-start items-start">
+  <div class="w-3/5 shrink-0 py-14">
     <div
-      [ngClass]="
-        showMore
-          ? 'h-auto pt-2 pb-4'
-          : 'absolute bg-gradient-to-t from-white via-white to-transparent bottom-0 left-0 h-[200px]  pb-10'
-      "
-      class="w-full flex justify-center items-end"
+      [ngClass]="showMoreLearn ? 'h-auto' : 'h-[400px]'"
+      class="border-2 p-6 w- w-full overflow-hidden relative transition-all duration-100 ease-in-out mb-8"
     >
-      <span
-        (click)="toggleShowMore()"
-        class="text-[15px] font-semibold text-indigo-700 hover:underline cursor-pointer"
-        >{{ showMore ? "See less" : "See more" }}</span
-      >
-    </div>
-  </div>
-  <div class="py-4 w-3/5">
-    <h3 class="font-semibold mb-6 text-2xl">This course includes:</h3>
-    <div class="flex justify-start items-start flex-wrap">
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>smart_display</mat-icon>
-        24 hours on-demand video
-      </p>
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>description</mat-icon>
-        18 articles
-      </p>
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>download</mat-icon>
-        15 downloadable resources
-      </p>
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>smartphone</mat-icon>
-        Access on mobile and TV
-      </p>
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>closed_captions</mat-icon>
-        Closed captions
-      </p>
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>volume_up</mat-icon>
-        Audio description in existing audio
-      </p>
-      <p
-        class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
-      >
-        <mat-icon>emoji_events</mat-icon>
-        Certificate of completion
-      </p>
-    </div>
-  </div>
-  <div class="py-4 w-3/5">
-    <h3 class="font-semibold mb-4 text-2xl">Course content</h3>
-    <p class="text-neutral-500 font-medium">
-      42 sections • 190 lectures • 16h 25m total length
-    </p>
-    <div class="my-1">
-      <mat-accordion>
-        <mat-expansion-panel
-          hideToggle
-          *ngFor="let item of sectionsArray | slice : 0 : sectionsToShow"
-          class="border-2 !rounded-md !mb-2"
-          (opened)="panelOpenState = true"
-          (closed)="panelOpenState = false"
+      <h3 class="font-semibold mb-6 text-2xl pl-8">What you'll learn</h3>
+      <ul class="flex flex-wrap justify-start items-stretch list-none">
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
         >
-          <mat-expansion-panel-header class="!p-4">
-            <mat-panel-title class="!text-[15px] !font-semibold !w-full">
-              Incredible Ways to use ChatGPT
-            </mat-panel-title>
-            <mat-panel-description
-              class="!flex !justify-end !m-0 !text-neutral-600 !flex-none"
-            >
-              6 Lectures .. 30min
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-          <div class="flex flex-col w-full justify-start items-start">
-            <div class="w-full flex justify-between items-center pt-6">
-              <p
-                class="flex justify-start items-center gap-4 text-[14px] font-medium"
-              >
-                <mat-icon>smart_display</mat-icon>
-                Introduction: Incredible Ways to Use ChatGPT
-              </p>
-              <p
-                class="flex justify-start items-center gap-4 text-[14px] font-medium"
-              >
-                00:10
-              </p>
-            </div>
-            <div class="w-full flex justify-between items-center pt-6">
-              <p
-                class="flex justify-start items-center gap-4 text-[14px] font-medium"
-              >
-                <mat-icon>description</mat-icon>
-                Introduction: Incredible Ways to Use ChatGPT
-              </p>
-              <p
-                class="flex justify-start items-center gap-4 text-[14px] font-medium"
-              >
-                00:10
-              </p>
-            </div>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-      <button
-        [ngClass]="sectionsToShow === sectionsArray.length ? 'hidden' : ''"
-        (click)="sectionsToShow = sectionsArray.length"
-        class="w-full py-2 border-2 border-black rounded-md font-semibold"
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          ChatGPT: Create content, synthesize information, and learn faster than
+          ever with effective prompt engineering!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          ChatGPT: Turn your creativity into paid work, generate fresh ideas,
+          reach new audiences, and scale your projects!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Productivity: Achieve your goals faster with ChatGPT, manage your
+          time, prioritize tasks, and create an optimized daily schedule!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Marketing: Generate targeted content with ChatGPT, capitalize on
+          trends, create ads, newsletters, and media campaigns!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Soft Skills: Improve your communication, leadership, problem-solving,
+          and social skills with personalized ChatGPT feedback!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          AI Voice Tools: Easily create AI-generated speech for any use case and
+          even clone your own voice entirely!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          AI Video Tools: Create an AI avatar that transforms scripts into
+          presentations and quickly generate social media content!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          AI Photo Tools: Add motion to images, dynamically enhance image
+          aesthetics, and create custom images in bulk!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          AI Writing Tools: Automate writing tasks, generate effective copy, and
+          integrate with Google Sheets/Excel!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          AI Music Tools: Create unique compositions for any types of video and
+          save time with a streamlined creative process.
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Branding: Develop a visual identity, design logos, and generate
+          content to establish a strong online presence!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          DALL-E 2: Create amazing photos from prompts, fill in or remove
+          elements of images using inpainting and outpainting techniques!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Business: Streamline your workflow, automate repetitive tasks, and
+          gain insights that help you make data-driven decisions for your
+          business!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Multimodal: Combine multiple AI tools to create immersive and engaging
+          content that would have previously taken an entire team to create!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Midjourney: Use prompts, parameters, and modifiers to create amazing
+          images that showcase your personal style and creativity!
+        </li>
+        <li
+          class="w-1/2 mb-6 px-2 flex justify-start items-start gap-2 font-medium text-[15px]"
+        >
+          <mat-icon class="!shrink-0 !mt-1 !w-[18px] !h-[18px] !text-[18px]"
+            >check</mat-icon
+          >
+          Coding: Combine the power of ChatGPT with programming fundamentals,
+          algorithms, debugging, and documentation!
+        </li>
+      </ul>
+      <div
+        [ngClass]="
+          showMoreLearn
+            ? 'h-auto pt-2 pb-4'
+            : 'absolute bg-gradient-to-t from-white via-white to-transparent bottom-0 left-0 h-[200px]  pb-10'
+        "
+        class="w-full flex justify-center items-end"
       >
-        {{ sectionsArray.length - sectionsToShow }} more sections
+        <span
+          (click)="toggleShowMoreLearn()"
+          class="text-[15px] font-semibold text-indigo-700 hover:underline cursor-pointer"
+          >{{ showMoreLearn ? "See less" : "See more" }}</span
+        >
+      </div>
+    </div>
+    <div class="py-6 w-full">
+      <h3 class="font-semibold mb-6 text-2xl">This course includes:</h3>
+      <div class="flex justify-start items-start flex-wrap">
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>smart_display</mat-icon>
+          24 hours on-demand video
+        </p>
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>description</mat-icon>
+          18 articles
+        </p>
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>download</mat-icon>
+          15 downloadable resources
+        </p>
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>smartphone</mat-icon>
+          Access on mobile and TV
+        </p>
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>closed_captions</mat-icon>
+          Closed captions
+        </p>
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>volume_up</mat-icon>
+          Audio description in existing audio
+        </p>
+        <p
+          class="w-1/2 px-2 mb-4 font-medium flex justify-start items-center gap-3"
+        >
+          <mat-icon>emoji_events</mat-icon>
+          Certificate of completion
+        </p>
+      </div>
+    </div>
+    <div class="py-6 w-full">
+      <h3 class="font-semibold mb-4 text-2xl">Course content</h3>
+      <p class="text-neutral-500 font-medium">
+        42 sections • 190 lectures • 16h 25m total length
+      </p>
+      <div class="my-1">
+        <mat-accordion>
+          <mat-expansion-panel
+            hideToggle
+            *ngFor="let item of sectionsArray | slice : 0 : sectionsToShow"
+            class="border-2 !rounded-md !mb-2"
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header class="!p-4">
+              <mat-panel-title class="!text-[15px] !font-semibold !w-full">
+                Incredible Ways to use ChatGPT
+              </mat-panel-title>
+              <mat-panel-description
+                class="!flex !justify-end !m-0 !text-neutral-600 !flex-none"
+              >
+                6 Lectures .. 30min
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div class="flex flex-col w-full justify-start items-start">
+              <div class="w-full flex justify-between items-center pt-6">
+                <p
+                  class="flex justify-start items-center gap-4 text-[14px] font-medium"
+                >
+                  <mat-icon>smart_display</mat-icon>
+                  Introduction: Incredible Ways to Use ChatGPT
+                </p>
+                <p
+                  class="flex justify-start items-center gap-4 text-[14px] font-medium"
+                >
+                  00:10
+                </p>
+              </div>
+              <div class="w-full flex justify-between items-center pt-6">
+                <p
+                  class="flex justify-start items-center gap-4 text-[14px] font-medium"
+                >
+                  <mat-icon>description</mat-icon>
+                  Introduction: Incredible Ways to Use ChatGPT
+                </p>
+                <p
+                  class="flex justify-start items-center gap-4 text-[14px] font-medium"
+                >
+                  00:10
+                </p>
+              </div>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+        <button
+          [ngClass]="sectionsToShow === sectionsArray.length ? 'hidden' : ''"
+          (click)="sectionsToShow = sectionsArray.length"
+          class="w-full py-2 border-2 border-neutral-300 rounded-md font-semibold hover:bg-neutral-100"
+        >
+          {{ sectionsArray.length - sectionsToShow }} more sections
+        </button>
+      </div>
+    </div>
+    <div class="py-6 w-full">
+      <h3 class="font-semibold mb-4 text-2xl">Requirements</h3>
+      <ul class="list-disc pl-4">
+        <li class="text-[15px] font-medium mb-2">
+          Basic Knowledge of Javascript and NPM
+        </li>
+        <li class="text-[15px] font-medium">A Mac, PC, or Linux Machine</li>
+      </ul>
+    </div>
+    <div class="py-6 w-full">
+      <h3 class="font-semibold mb-4 text-2xl">Description</h3>
+      <div
+        [ngClass]="showMoreDescription ? 'h-auto ' : 'h-[250px] mb-6'"
+        class="overflow-hidden relative transition-all duration-100 ease-in-out"
+      >
+        <p class="text-[14px] font-medium leading-6">
+          <strong>Smart Contracts?</strong> They're here.
+          <strong>The Ethereum Blockchain?</strong> Covered. Solidity? Yep!
+          <br />There can be no understating it: Ethereum and Blockchain
+          technology is the most disruptive force in years. Companies cannot
+          hire developers who understand blockchain technologies fast enough,
+          but there are a tiny number of resources published to help you truly
+          understand what blockchains are used for, let alone build apps with
+          them. That's the purpose of this course: to be the best resource
+          online for learning about Ethereum, blockchains, and how to build apps
+          with this new technology. The development community is still figuring
+          out the best way to use Ethereum in the creation of new and exciting
+          apps. I spent a tremendous amount of time to research and create best
+          practice for interfacing with Ethereum from Javascript. I can't
+          overstate it enough; this course will show you the best and most
+          easily repeatable patterns for creating production-ready apps with
+          Ethereum.<br /><br /><strong>
+            What tools and libraries are used?</strong
+          ><br /><br />
+          The Ethereum tech ecosystem is in constant change. Don't be fooled by
+          other courses that mention how you'll learn a dozen different
+          libraries! Every library that you'll use with Ethereum breaks and is
+          deprecated on a near-weekly basis! Instead, this course will teach you
+          how to assemble your own boilerplate package to develop, compile, and
+          test Smart Contracts. By learning the core technologies, you'll be
+          prepared to adjust to Ethereum no matter how the ecosystem changes.
+        </p>
+        <div
+          [ngClass]="
+            showMoreDescription
+              ? 'h-auto pt-8 pb-4'
+              : 'absolute bg-gradient-to-t from-white from-30% to-transparent bottom-0 left-0 h-full'
+          "
+          class="w-full flex justify-center items-end"
+        >
+          <span
+            (click)="toggleShowMoreDescription()"
+            class="text-[15px] font-semibold text-indigo-700 hover:underline cursor-pointer"
+            >{{ showMoreDescription ? "See less" : "See more" }}</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="py-6 w-full">
+      <h3 class="font-semibold mb-8 text-2xl">Students also bought</h3>
+      <div class="flex flex-col justify-start items-start gap-4">
+        <app-course-recommendation></app-course-recommendation>
+        <mat-divider class="!w-full"></mat-divider>
+        <app-course-recommendation></app-course-recommendation>
+        <mat-divider class="!w-full"></mat-divider>
+        <app-course-recommendation></app-course-recommendation>
+        <mat-divider class="!w-full"></mat-divider>
+        <app-course-recommendation></app-course-recommendation>
+        <mat-divider class="!w-full"></mat-divider>
+        <app-course-recommendation></app-course-recommendation>
+        <mat-divider class="!w-full"></mat-divider>
+        <app-course-recommendation></app-course-recommendation>
+        <mat-divider class="!w-full"></mat-divider>
+        <app-course-recommendation></app-course-recommendation>
+      </div>
+    </div>
+    <div class="py-6 w-full">
+      <h3
+        class="font-semibold mb-8 text-2xl flex justify-start items-center gap-2"
+      >
+        <mat-icon class="!text-[28px] !w-[28px] !h-[28px] text-yellow-500"
+          >star</mat-icon
+        >4.6 course rating 27K ratings
+      </h3>
+      <div class="flex flex-wrap justify-start items-start mb-8">
+        <app-review></app-review>
+      </div>
+      <button
+        class="px-3 py-1 border-2 border-neutral-500 rounded-lg font-medium text-[14px]"
+      >
+        Show all reviews
       </button>
     </div>
+    <div class="py-6 w-full">
+      <h3
+        class="font-semibold mb-8 text-2xl flex justify-start items-center gap-2"
+      >
+        Instructors
+      </h3>
+      <div class="flex flex-wrap justify-start items-start">
+        <app-instructor-card></app-instructor-card>
+      </div>
+    </div>
   </div>
-  <div class="py-4 w-3/5">
-    <h3 class="font-semibold mb-4 text-2xl">Students also bought</h3>
+  <div
+    class="w-2/5 shadow-md rounded-md p-6 mx-10 -mt-20 bg-white sticky top-[100px]"
+  >
+    <div class="flex justify-center items-center gap-4 mb-4">
+      <p class="text-[24px] font-bold">£ 12.44</p>
+      <p class="text-[20px] font-semibold text-neutral-500 line-through">
+        12.44
+      </p>
+      <p class="text-[18px] font-medium">78% off</p>
+    </div>
+    <div class="flex justify-start items-center gap-4 mb-4">
+      <button
+        mat-flat-button
+        disableRipple
+        class="!font-medium !text-[16px] w-full"
+        color="primary"
+        va
+      >
+        Add to cart
+      </button>
+      <button
+        mat-icon-button
+        disableRipple
+        class="!font-medium !text-[16px] w-full"
+        color="warn"
+      >
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </div>
+    <p class="text-[12px] text-neutral-500 font-medium text-center mb-2">
+      30-Day Money-Back Guarantee
+    </p>
+    <p class="text-[12px] text-neutral-500 font-medium text-center mb-2">
+      Full Lifetime Access
+    </p>
+    <button
+      mat-stroked-button
+      class="text-[16px] font-medium !mx-auto"
+      color="primary"
+    >
+      <mat-icon>share</mat-icon>
+      Share
+    </button>
   </div>
 </div>
