@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-signin',
   standalone: true,
-  imports: [],
+  imports: [MatButtonModule,MatDividerModule],
   templateUrl: './signin.component.html',
-  styleUrl: './signin.component.css'
+  styleUrl: './signin.component.css',
 })
-export class SigninComponent {
-
-}
+export class SigninComponent {}

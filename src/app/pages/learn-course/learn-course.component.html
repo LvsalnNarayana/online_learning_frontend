@@ -1,0 +1,387 @@
+<div class="flex justify-start items-start min-h-[calc(100vh-50px)] relative">
+  <div class="w-3/4 shrink-0 h-full">
+    <div class="bg-neutral-800 w-full min-h-[75vh]"></div>
+    <mat-tab-group class="learn_course_tab">
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <p
+            class="!font-semibold flex justify-center items-center !gap-2 !tracking-wide"
+          >
+            <mat-icon class="example-tab-icon">search</mat-icon>
+            Search
+          </p>
+        </ng-template>
+        <div
+          class="w-full flex flex-col justify-start items-center container py-8"
+        >
+          <form class="w-4/5">
+            <input
+              class="w-full py-1 px-2 rounded-md border-2 placeholder:text-[15px] placeholder:font-medium font-medium focus:outline-none focus:border-indigo-800"
+              placeholder="Search course content"
+            />
+          </form>
+          <p class="text-xl font-semibold mt-5">Start a new search</p>
+          <p class="text-[16px] font-medium mt-5 mb-7">
+            search title, captions, notes and resources
+          </p>
+        </div>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <p
+            class="!font-semibold flex justify-center items-center !gap-2 !tracking-wide"
+          >
+            Overview
+          </p>
+        </ng-template>
+        <div class="w-4/5 py-8 mx-auto">
+          <div class="w-full">
+            <p class="text-2xl font-semibold">
+              Use React Native and your React knowledge to build native iOS and
+              Android Apps - incl. Push Notifications, Hooks, Redux
+            </p>
+            <div class="flex justify-start items-start my-6 gap-12">
+              <div class="flex flex-col justify-center items-center gap-1">
+                <p
+                  class="flex justify-start items-center text-[18px] font-semibold gap-2"
+                >
+                  <mat-icon
+                    class="text-yellow-500 !text-[22px] !w-[22px] !h-[22px]"
+                    >star</mat-icon
+                  >
+                  4.7
+                </p>
+                <p class="text-[13px] text-neutral-600">31,954 ratings</p>
+              </div>
+              <div class="flex flex-col justify-center items-center gap-1">
+                <p
+                  class="flex justify-start items-center text-[18px] font-semibold"
+                >
+                  219,994
+                </p>
+                <p class="text-[13px] text-neutral-600">Students</p>
+              </div>
+              <div class="flex flex-col justify-center items-center gap-1">
+                <p
+                  class="flex justify-start items-center text-[18px] font-semibold"
+                >
+                  28.5 hours
+                </p>
+                <p class="text-[13px] text-neutral-600">Total</p>
+              </div>
+            </div>
+            <p
+              class="font-medium cursor-pointer text-[15px] flex justify-start items-center my-6"
+            >
+              <mat-icon class="!text-[18px] !w-[18px] !h-[18px]"
+                >new_releases</mat-icon
+              >&nbsp; Last Updated at 05/2024
+            </p>
+            <p
+              class="font-medium cursor-pointer text-[15px] flex justify-start items-center"
+            >
+              <mat-icon class="!text-[18px] !w-[18px] !h-[18px]"
+                >language</mat-icon
+              >&nbsp; English
+            </p>
+            <div class="flex justify-start items-start py-6">
+              <p class="w-1/3 font-medium">Certificates</p>
+              <div class="w-2/3 flex flex-col justify-start items-start gap-4">
+                <p class="text-[15px] font-medium">
+                  Get Udemy certificate by completing entire course
+                </p>
+                <button class="border-2 w-full py-1">Certificate</button>
+              </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="flex justify-start items-start py-6">
+              <p class="w-1/3 font-medium">Description</p>
+              <div class="w-2/3 flex flex-col justify-start items-start gap-4">
+                <p class="text-[14px] font-medium leading-6">
+                  <strong>Smart Contracts?</strong> They're here.
+                  <strong>The Ethereum Blockchain?</strong> Covered. Solidity?
+                  Yep! There can be no understating it: Ethereum and Blockchain
+                  technology is the most disruptive force in years. Companies
+                  cannot hire developers who understand blockchain technologies
+                  fast enough, but there are a tiny number of resources
+                  published to help you truly understand what blockchains are
+                  used for, let alone build apps with them. That's the purpose
+                  of this course: to be the best resource online for learning
+                  about Ethereum, blockchains, and how to build apps with this
+                  new technology. The development community is still figuring
+                  out the best way to use Ethereum in the creation of new and
+                  exciting apps. I spent a tremendous amount of time to research
+                  and create best practice for interfacing with Ethereum from
+                  Javascript. I can't overstate it enough; this course will show
+                  you the best and most easily repeatable patterns for creating
+                  production-ready apps with Ethereum.<br /><br /><strong>
+                    What tools and libraries are used?</strong
+                  ><br /><br />
+                  The Ethereum tech ecosystem is in constant change. Don't be
+                  fooled by other courses that mention how you'll learn a dozen
+                  different libraries! Every library that you'll use with
+                  Ethereum breaks and is deprecated on a near-weekly basis!
+                  Instead, this course will teach you how to assemble your own
+                  boilerplate package to develop, compile, and test Smart
+                  Contracts. By learning the core technologies, you'll be
+                  prepared to adjust to Ethereum no matter how the ecosystem
+                  changes.
+                </p>
+              </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="flex justify-start items-start py-6">
+              <p class="w-1/3 font-medium">Instructor</p>
+              <div class="w-2/3 flex flex-col justify-start items-start gap-4">
+                <app-instructor-card></app-instructor-card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <p
+            class="!font-semibold flex justify-center items-center !gap-2 !tracking-wide"
+          >
+            Reviews
+          </p>
+        </ng-template>
+        <div class="flex flex-col justify-start items-start w-4/5 mx-auto py-8">
+          <p class="text-2xl font-bold">Student Feedback</p>
+          <div class="flex justify-start items-stretch w-full my-10">
+            <div class="w-1/5 flex flex-col justify-center items-center">
+              <p class="text-[80px] font-bold">4.7</p>
+              <div class="flex justify-center items-center">
+                <mat-icon
+                  class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500"
+                  >star</mat-icon
+                >
+                <mat-icon
+                  class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500"
+                  >star</mat-icon
+                >
+                <mat-icon
+                  class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500"
+                  >star</mat-icon
+                >
+                <mat-icon
+                  class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500"
+                  >star</mat-icon
+                >
+                <mat-icon
+                  class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500"
+                  >star</mat-icon
+                >
+              </div>
+            </div>
+            <div class="w-4/5 shrink-0">
+              <div class="flex flex-col justify-around items-start h-full">
+                <div class="flex justify-start items-center w-full gap-4">
+                  <mat-progress-bar
+                    class="learn_course_progress_bar"
+                    mode="determinate"
+                    value="40"
+                  >
+                  </mat-progress-bar>
+                  <div class="flex jutsify-start items-center gap-2">
+                    <mat-icon
+                      class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500 !shrink-0"
+                      >star</mat-icon
+                    >
+                    <span class="font-medium hover:underline cursor-pointer"
+                      >67%</span
+                    >
+                  </div>
+                </div>
+                <div class="flex justify-start items-center w-full gap-4">
+                  <mat-progress-bar
+                    class="learn_course_progress_bar"
+                    mode="determinate"
+                    value="40"
+                  >
+                  </mat-progress-bar>
+                  <div class="flex jutsify-start items-center gap-2">
+                    <mat-icon
+                      class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500 !shrink-0"
+                      >star</mat-icon
+                    >
+                    <span class="font-medium hover:underline cursor-pointer"
+                      >67%</span
+                    >
+                  </div>
+                </div>
+                <div class="flex justify-start items-center w-full gap-4">
+                  <mat-progress-bar
+                    class="learn_course_progress_bar"
+                    mode="determinate"
+                    value="40"
+                  >
+                  </mat-progress-bar>
+                  <div class="flex jutsify-start items-center gap-2">
+                    <mat-icon
+                      class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500 !shrink-0"
+                      >star</mat-icon
+                    >
+                    <span class="font-medium hover:underline cursor-pointer"
+                      >67%</span
+                    >
+                  </div>
+                </div>
+                <div class="flex justify-start items-center w-full gap-4">
+                  <mat-progress-bar
+                    class="learn_course_progress_bar"
+                    mode="determinate"
+                    value="40"
+                  >
+                  </mat-progress-bar>
+                  <div class="flex jutsify-start items-center gap-2">
+                    <mat-icon
+                      class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500 !shrink-0"
+                      >star</mat-icon
+                    >
+                    <span class="font-medium hover:underline cursor-pointer"
+                      >67%</span
+                    >
+                  </div>
+                </div>
+                <div class="flex justify-start items-center w-full gap-4">
+                  <mat-progress-bar
+                    class="learn_course_progress_bar"
+                    mode="determinate"
+                    value="40"
+                  >
+                  </mat-progress-bar>
+                  <div class="flex jutsify-start items-center gap-2">
+                    <mat-icon
+                      class="!text-[20px] !w-[20px] !h-[20px] text-yellow-500 !shrink-0"
+                      >star</mat-icon
+                    >
+                    <span class="font-medium hover:underline cursor-pointer"
+                      >67%</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-2xl font-bold">Reviews</p>
+          <form class="w-full mt-2 mb-8 flex justify-start items-end gap-4">
+            <input
+              class="w-full py-1 px-2 rounded-md border-2 placeholder:text-[15px] placeholder:font-medium font-medium focus:outline-none focus:border-indigo-800"
+              placeholder="Search reviews"
+            />
+            <div class="flex flex-col justify-center items-center gap-2">
+              <p class="text=[10px] text-neutral-600 font-medium">Filter by</p>
+              <select
+                class="py-1 px-2 rounded-md border-2 focus:outline-none cursor-pointer hover:bg-neutral-100"
+                name="filter_reviews_selection"
+                id="filter_reviews_selection"
+              >
+                <option selected value="all">All Ratings</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Stars</option>
+              </select>
+            </div>
+          </form>
+          <app-review></app-review>
+          <app-review></app-review>
+          <app-review></app-review>
+          <app-review></app-review>
+        </div>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <p
+            class="!font-semibold flex justify-center items-center !gap-2 !tracking-wide"
+          >
+            Announcements
+          </p>
+        </ng-template>
+        <div class="flex flex-col justify-start items-start w-4/5 mx-auto py-8">
+          <app-announcement></app-announcement>
+          <mat-divider class="w-full"></mat-divider>
+          <app-announcement></app-announcement>
+          <mat-divider class="w-full"></mat-divider>
+          <app-announcement></app-announcement>
+          <mat-divider class="w-full"></mat-divider>
+          <app-announcement></app-announcement>
+          <mat-divider class="w-full"></mat-divider>
+          <app-announcement></app-announcement>
+          <mat-divider class="w-full"></mat-divider>
+          <app-announcement></app-announcement>
+        </div>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <p
+            class="!font-semibold flex justify-center items-center !gap-2 !tracking-wide"
+          >
+            Q&A
+          </p>
+        </ng-template>
+        Q&A
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+  <div
+    class="w-1/4 fixed right-0 top-[50px] shrink-0 max-h-[calc(100vh-50px)] overflow-y-auto"
+  >
+    <mat-accordion>
+      <mat-expansion-panel
+        hideToggle
+        *ngFor="let item of sectionsArray | slice : 0 : sectionsToShow"
+        class="border-b-2 !rounded-none"
+        (opened)="item.panelOpenState = true"
+        (closed)="item.panelOpenState = false"
+      >
+        <mat-expansion-panel-header class="!p-0">
+          <div class="flex flex-col gap-2 px-3 py-2 w-full">
+            <div class="flex justify-between items-center">
+              <p class="!text-[14px] !font-semibold !w-full">
+                Incredible Ways to use ChatGPT lorem
+              </p>
+              <p
+                class="shrink-0 transition-all duration-75 ease-in"
+                [ngClass]="item.panelOpenState ? 'rotate-180' : ''"
+              >
+                <mat-icon>arrow_drop_down</mat-icon>
+              </p>
+            </div>
+            <p class="text-neutral-500 text-[12px]">1hr 30min</p>
+          </div>
+        </mat-expansion-panel-header>
+        <div class="flex flex-col w-full justify-start items-start">
+          <div
+            class="w-full flex justify-start items-start flex-col gap-1 mb-4"
+          >
+            <div class="flex justify-start items-start gap-2">
+              <mat-checkbox
+                disableRipple
+                color="primary"
+                class="example-margin"
+              >
+              </mat-checkbox>
+              <p
+                class="flex justify-start items-center gap-4 text-[13px] font-medium"
+              >
+                Introduction: Incredible Ways to Use ChatGPT
+              </p>
+            </div>
+            <p
+              class="flex justify-start items-center gap-4 text-[12px] text-neutral-600 font-medium pl-2"
+            >
+              <mat-icon class="!text-[18px] !w-[18px] !h-[18px] shrink-0"
+                >smart_display</mat-icon
+              >
+              00:10
+            </p>
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

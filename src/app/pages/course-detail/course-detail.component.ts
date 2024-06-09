@@ -8,6 +8,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { ReviewComponent } from '../../shared/review/review.component.js';
 import { InstructorCardComponent } from '../../shared/instructor-card/instructor-card.component.js';
 import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-course-detail',
   standalone: true,
@@ -22,7 +25,10 @@ import { MatButtonModule } from '@angular/material/button';
     MatDividerModule,
     ReviewComponent,
     InstructorCardComponent,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   templateUrl: './course-detail.component.html',
   styleUrl: './course-detail.component.css',

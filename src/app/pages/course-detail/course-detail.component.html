@@ -456,47 +456,75 @@
     </div>
   </div>
   <div
-    class="w-2/5 shadow-md rounded-md p-6 mx-10 -mt-20 bg-white sticky top-[100px]"
+    class="w-2/5 shadow-md rounded-md p-2 mx-10 -mt-80 bg-white sticky top-[100px] mx-16"
   >
-    <div class="flex justify-center items-center gap-4 mb-4">
-      <p class="text-[24px] font-bold">£ 12.44</p>
-      <p class="text-[20px] font-semibold text-neutral-500 line-through">
-        12.44
-      </p>
-      <p class="text-[18px] font-medium">78% off</p>
-    </div>
-    <div class="flex justify-start items-center gap-4 mb-4">
-      <button
-        mat-flat-button
-        disableRipple
-        class="!font-medium !text-[16px] w-full"
-        color="primary"
-        va
-      >
-        Add to cart
-      </button>
-      <button
-        mat-icon-button
-        disableRipple
-        class="!font-medium !text-[16px] w-full"
-        color="warn"
-      >
-        <mat-icon>favorite</mat-icon>
-      </button>
-    </div>
-    <p class="text-[12px] text-neutral-500 font-medium text-center mb-2">
-      30-Day Money-Back Guarantee
-    </p>
-    <p class="text-[12px] text-neutral-500 font-medium text-center mb-2">
-      Full Lifetime Access
-    </p>
-    <button
-      mat-stroked-button
-      class="text-[16px] font-medium !mx-auto"
-      color="primary"
+    <div
+      class="w-full h-[250px] bg-indigo-100 rounded-md flex justify-center items-center"
     >
-      <mat-icon>share</mat-icon>
-      Share
-    </button>
+      <mat-icon class="text-[62px] !w-[62px] !h-[62px] cursor-pointer"
+        >play_circle</mat-icon
+      >
+    </div>
+    <div class="p-4 flex justify-start items-center w-full flex-col gap-4">
+      <div class="flex justify-start items-center gap-3">
+        <p class="text-[24px] font-bold">£ 12.44</p>
+        <p class="text-[20px] font-semibold text-neutral-500 line-through">
+          12.44
+        </p>
+        <p class="text-[18px] font-medium ml-5">78% off</p>
+      </div>
+      <div class="flex justify-start items-center gap-2 w-full">
+        <button
+          mat-flat-button
+          disableRipple
+          class="!font-medium !text-[16px] w-full"
+          color="primary"
+        >
+          Add to cart
+        </button>
+        <button
+          mat-icon-button
+          disableRipple
+          class="!font-medium !text-[16px] w-full"
+          color="warn"
+        >
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+      <p class="text-[12px] text-neutral-500 font-medium text-center">
+        30-Day Money-Back Guarantee
+      </p>
+      <p class="text-[12px] text-neutral-500 font-medium text-center">
+        Full Lifetime Access
+      </p>
+      <div class="flex justify-center w-full">
+        <button
+          mat-stroked-button
+          color="primary"
+          class="text-[16px] !font-semibold border-2 flex justify-center items-center w-full p-1.5 rounded-md"
+        >
+          <mat-icon>share</mat-icon>
+          Share
+        </button>
+      </div>
+      <div class="flex justify-start items-center w-full gap-2">
+        <form class="w-full">
+          <input
+            type="text"
+            id="coupon_code_input"
+            name="coupon_code_input"
+            class="border-2 p-1.5 rounded-lg w-full placeholder:text-[15px]"
+            placeholder="Enter your coupon code"
+          />
+        </form>
+        <button
+          mat-flat-button
+          color="primary"
+          class="text-[16px] !font-medium !mx-auto flex justify-center items-center w-2/5 gap-2 p-1.5 rounded-md"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
   </div>
 </div>

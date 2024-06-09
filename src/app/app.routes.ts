@@ -9,6 +9,7 @@ import { SearchResultsComponent } from './pages/search-results/search-results.co
 import { SignupComponent } from './pages/signup/signup.component.js';
 import { InstructorDashboardComponent } from './pages/instructor-dashboard/instructor-dashboard.component.js';
 import { MessagesComponent } from './pages/messages/messages.component.js';
+import { LearnCourseComponent } from './pages/learn-course/learn-course.component.js';
 
 export const routes: Routes = [
   {
@@ -38,12 +39,19 @@ export const routes: Routes = [
     ],
   },
   {
-    path: 'course/:courseId',
-    component: CourseDetailComponent,
+    path: 'course',
     children: [
       {
         path: 'search',
         component: SearchResultsComponent,
+      },
+      {
+        path: ':courseId',
+        component: CourseDetailComponent,
+      },
+      {
+        path: ':courseId/learn',
+        component: LearnCourseComponent,
       },
     ],
   },

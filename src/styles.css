@@ -10,8 +10,7 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html {
     height: 100%;
 }
 
@@ -126,4 +125,41 @@ body::-webkit-scrollbar-thumb:hover {
 .mdc-evolution-chip__text-label {
     font-size: 13px !important;
     font-weight: 500 !important;
+}
+
+.mat-expansion-panel-spacing {
+    margin: 0px 0 !important;
+}
+
+
+.learn_course_tab .mat-mdc-tab-header {
+    background: #00000015;
+}
+
+.learn_course_progress_bar {
+    height: 10px !important;
+    overflow: visible;
+}
+
+.learn_course_progress_bar .mdc-linear-progress__bar {
+
+    height: 10px !important;
+    margin: 0px;
+    /* background-color: #00000020; */
+}
+
+.learn_course_progress_bar .mdc-linear-progress__buffer {
+
+    height: 10px !important;
+    margin: 0px;
+    background-color: rgb(254 249 195);
+}
+
+.learn_course_progress_bar .mdc-linear-progress__bar .mdc-linear-progress__bar-inner {
+    border-top-width: 10px;
+    border-color: rgb(234 179 8);
+    ;
+}
+.mat-expansion-panel-body{
+    padding: 10px !important;
 }
