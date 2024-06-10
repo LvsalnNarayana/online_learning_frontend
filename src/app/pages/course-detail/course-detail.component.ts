@@ -11,6 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { routes } from '../../app.routes.js';
+
 @Component({
   selector: 'app-course-detail',
   standalone: true,
@@ -29,6 +32,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
+    RouterModule,
   ],
   templateUrl: './course-detail.component.html',
   styleUrl: './course-detail.component.css',

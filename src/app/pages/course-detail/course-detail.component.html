@@ -28,9 +28,11 @@
             >star</mat-icon
           >
         </div>
-        <p class="text-[15px] text-indigo-300 hover:underline cursor-pointer">
-          (123435 ratings)
-        </p>
+        <a routerLink="." fragment="reviews">
+          <p class="text-[15px] text-indigo-300 hover:underline cursor-pointer">
+            (123435 ratings)
+          </p>
+        </a>
         <p class="text-[15px] font-medium">19, 234 Students</p>
       </div>
       <div class="flex justify-start items-start">
@@ -427,7 +429,7 @@
         <app-course-recommendation></app-course-recommendation>
       </div>
     </div>
-    <div class="py-6 w-full">
+    <div class="py-6 w-full" id="reviews">
       <h3
         class="font-semibold mb-8 text-2xl flex justify-start items-center gap-2"
       >
@@ -476,7 +478,6 @@
       <div class="flex justify-start items-center gap-2 w-full">
         <button
           mat-flat-button
-          disableRipple
           class="!font-medium !text-[16px] w-full"
           color="primary"
         >
@@ -484,7 +485,6 @@
         </button>
         <button
           mat-icon-button
-          disableRipple
           class="!font-medium !text-[16px] w-full"
           color="warn"
         >

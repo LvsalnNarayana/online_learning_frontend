@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [],
+  imports: [MatDividerModule],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css',
 })
